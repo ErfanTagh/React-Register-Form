@@ -68,9 +68,6 @@
 }
 
 
-
-
-
 .signupform{
 
 
@@ -80,18 +77,15 @@
     vertical-align:top;
     background-color: #58af9b;
     display: inline-block;
-    animation: wobbleback 0.4s ease-out forwards;
+    animation: wobbleback 1s ease-out forwards;
 
     position: relative;
-
-
 
 }
 
 .submitClicked {
 
     flex: 1;
-
     height: 100vh;
     background-color: #58af9b;
     display: flex;
@@ -116,9 +110,7 @@
     background-color: #58af9b;
     display: inline-block;
     position: relative;
-    animation: wobble 0.4s ease-out forwards;
-
-
+    animation: wobble 1s ease-out forwards;
 
 }
 
@@ -149,26 +141,22 @@
 
     }
     25%{
-        margin-left: 10%;
-        width: 540px;
-        display: none ;
-        z-index: 100;
-        background: #58af9b;
+        background-image: url("./../assets/green.png");
+
     }
     50%{
-        margin-left: 25%;
         width: 700px;
-        display: none ;
-        z-index: 100;
-        background: #58af9b;
+        background-image: url("./../assets/green.png");
+
+
 
     }
     75%{
-        margin-left: 50%;
-        width: 540px;
-        display: none ;
-        z-index: 100;
-        background: #58af9b;
+
+        background-image: url("./../assets/green.png");
+
+
+
 
     }
     100%{
@@ -185,8 +173,8 @@
 
     }
     25%{
-        margin-right: 10%;
-        width: 540px;
+
+
         display: none ;
         overflow: hidden;
         z-index: 100;
@@ -194,18 +182,16 @@
 
     }
     50%{
-        margin-right: 25%;
+
         width: 700px;
         display: none ;
         background: #58af9b;
         overflow: hidden;
-        z-index: 100;
 
 
     }
     75%{
-        margin-right: 50%;
-        width: 540px;
+
         display: none ;
         overflow: hidden;
         z-index: 100;
