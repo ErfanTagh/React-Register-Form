@@ -1,0 +1,162 @@
+
+.app{
+
+    position: relative;
+
+}
+.form{
+    grid-area: column-1;
+    justify-self: center;
+
+}
+
+.app-header{
+
+    margin-top: 2em;
+    display: inline-block;
+    position: relative;
+
+
+
+
+}
+
+.app-header-left{
+
+    margin-top: 2em;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    align-self: center;
+
+
+
+}
+
+
+.inner-content-panel{
+
+    margin-top: 6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form-box{
+
+    min-width: 70%;
+    height: 80vh;
+    /* border: 1px solid red; */
+    margin-right: 8vw;
+    padding: 5vw ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* position:relative for .prevBtn and .nextBtn position:absolute; */
+
+}
+
+
+.passQualityBoxes  {
+
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.strongItem {
+    border-radius: 4px;
+    width: 24px;
+    height: 8px;
+    border: 2px solid black;
+    background-color: green;
+}
+
+
+.moderateItemL1 {
+    width: 24px;
+    height: 8px;
+    border: 2px solid black;
+    background-color: #ffff00 !important;
+    border-radius: 4px;
+}
+.moderateItemL2 {
+    width: 24px;
+    height: 8px;
+    border: 2px solid black;
+    background-color: #FFDF00 !important;
+    border-radius: 4px;
+}
+
+.weakItem {
+
+    width: 24px;
+    height: 8px;
+    border: 2px solid black;
+    background-color: #ff0A00 !important;
+    border-radius: 4px;
+}
+
+.passStatusHide{
+
+    visibility: hidden;
+
+}
+
+
+.passStatusVisible{
+
+    visibility: visible;
+
+}
+
+.inactiveItem {
+
+    width: 24px;
+    height: 8px;
+    border: 2px solid black;
+    background-color: wheat;
+    border-radius: 4px;
+}
+
+.form-box label{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-box input, textarea{
+    display: block;
+    width: 100%;
+    padding: .5rem .8rem .5rem .8rem;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.form-box textarea{
+    height: 15vh;
+}
+
+
+
+
+.app-elements{
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+
+
+
+
+}
+
