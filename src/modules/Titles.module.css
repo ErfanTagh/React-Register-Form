@@ -120,7 +120,6 @@
 
 
 
-
 }
 
 .signuphtxt{
@@ -154,15 +153,14 @@
         width: 540px;
         display: none ;
         z-index: 100;
-        background-image: url("../assets/backgroundanime.jpg");
-
+        background: #58af9b;
     }
     50%{
         margin-left: 25%;
         width: 700px;
         display: none ;
         z-index: 100;
-        background-image: url("../assets/backgroundanime.jpg");
+        background: #58af9b;
 
     }
     75%{
@@ -170,7 +168,7 @@
         width: 540px;
         display: none ;
         z-index: 100;
-        background-image: url("../assets/backgroundanime.jpg");
+        background: #58af9b;
 
     }
     100%{
@@ -192,14 +190,14 @@
         display: none ;
         overflow: hidden;
         z-index: 100;
-        background-image: url("../assets/backgroundanime.jpg");
+        background: #58af9b
 
     }
     50%{
         margin-right: 25%;
         width: 700px;
         display: none ;
-        background-image: url("../assets/backgroundanime.jpg");
+        background: #58af9b;
         overflow: hidden;
         z-index: 100;
 
@@ -212,7 +210,7 @@
         overflow: hidden;
         z-index: 100;
 
-        background-image: url("../assets/backgroundanime.jpg");
+        background: #58af9b;
 
     }
     100%{

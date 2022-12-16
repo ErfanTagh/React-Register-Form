@@ -1,7 +1,6 @@
 import React from 'react';
 import './Form.css';
 import PassStatus from './PassStatus'
-
 import styles from './modules/Titles.module.css'
 import Socials from "./Socials";
 import InputComponent from "./InputComponent";
@@ -22,7 +21,8 @@ class Registration extends React.Component {
 
 
         this.handleInputChange = this.handleInputChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+
     }
 
 
@@ -102,8 +102,6 @@ class Registration extends React.Component {
             }
 
         }
-
-
 
 
     }
