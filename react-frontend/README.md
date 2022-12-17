@@ -36,4 +36,4 @@ The main java class that handles adding new users and authenticating users is th
 
 ```
 
-If the user is authenticated, the check functions will return 1.
+If the user is authenticated, the check function will return 1.
